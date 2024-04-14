@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">SquareApp</string>
+    <string name="title">Find a square</string>
+    <string name="square">Square</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="hexagon">Hexagon</string>
+    <string name="back">Back to selection</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result:</string>
+    <string name="fieldA">Enter the value of \"a\"</string>
+    <string name="fieldB">Enter the value of \"b\"</string>
+    <string name="fieldR">Enter the value of \"r\"</string>
+    <string name="error">Enter the value</string>
+</resources>

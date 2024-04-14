@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SquareApp</string>
+    <string name="title">Найти площадь</string>
+    <string name="square">Квадрат</string>
+    <string name="triangle">Треугольник</string>
+    <string name="circle">Окружность</string>
+    <string name="rectangle">Прямоугольник</string>
+    <string name="hexagon">Шестиугольник</string>
+    <string name="back">Назад к выбору</string>
+    <string name="calculate">Вычислить</string>
+    <string name="result">Результат:</string>
+    <string name="fieldA">Введите значение \"a\"</string>
+    <string name="fieldB">Введите значение  \"b\"</string>
+    <string name="fieldR">Введите значение  \"r\"</string>
+    <string name="error">Введите значение </string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bSquare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="onClickSquare"
+        android:text="@string/square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bTriangle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickTriangle"
+        android:text="@string/triangle"
+        app:layout_constraintEnd_toEndOf="@+id/bSquare"
+        app:layout_constraintStart_toStartOf="@+id/bSquare"
+        app:layout_constraintTop_toBottomOf="@+id/bSquare" />
+
+    <Button
+        android:id="@+id/bCircle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickCircle"
+        android:text="@string/circle"
+        app:layout_constraintEnd_toEndOf="@+id/bTriangle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bTriangle"
+        app:layout_constraintTop_toBottomOf="@+id/bTriangle" />
+
+    <Button
+        android:id="@+id/bRectangle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickRectangle"
+        android:text="@string/rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/bCircle"
+        app:layout_constraintStart_toStartOf="@+id/bCircle"
+        app:layout_constraintTop_toBottomOf="@+id/bCircle" />
+
+    <Button
+        android:id="@+id/bHexagon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickHexagon"
+        android:text="@string/hexagon"
+        app:layout_constraintEnd_toEndOf="@+id/bRectangle"
+        app:layout_constraintStart_toStartOf="@+id/bRectangle"
+        app:layout_constraintTop_toBottomOf="@+id/bRectangle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
